@@ -1,0 +1,335 @@
+:root {
+    --Background: hsl(34, 20%, 16%);
+    --Ruban: hsl(204, 100%, 50%);
+    --Couleur-Des-Lettres: hsl(255, 255%, 255%);
+    --Couleur-anexe: hsl(237, 100%, 28%);
+    --Couleur-hover: hsl(34, 20%, 79%);
+
+    font-family: 'Lato', sans-serif;
+
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body {
+   background-color: var(--Background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    opacity: 1;
+
+}
+
+.pagecontainer {
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex ;
+
+}
+
+
+
+
+h1 {
+    color: var(--Couleur-Des-Lettres);
+    position: relative;
+    top: -470px;
+    font-weight: 700;
+    max-width: 3000px;
+    right: -300px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 1px;
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+
+}
+
+h1:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+}
+
+h1 a {
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--Couleur-Des-Lettres);
+    position: absolute;
+    top: -470px;
+    max-width: 300px;
+    font-size: 20px;
+    right: 70px;
+    padding: 15px;
+    margin: 1px;
+    border: 1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+}
+
+h2 a{
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+h2:hover {
+    color: var(--Couleur-hover);
+    border: 1px solid var(--Couleur-hover);
+    transition: all 1s ;
+}
+
+h3 {
+    color: var(--Couleur-Des-Lettres);
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -300px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+}
+h3:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+.separation {
+    background-color: var(--Couleur-Des-Lettres);
+    width: 2000px;
+    height: 1px;
+    margin-top: -380px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.logo {
+ position: absolute;
+    transform: scale(0.1);
+    bottom: -110px;
+    left: -1300px;
+
+}
+
+h5 {
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -515px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h5:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+h5 a{
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+
+h6 {
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -640px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h6:hover{
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+
+}
+h6 a {
+   text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+
+.titre {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 80px;
+    font-weight: bold;
+    max-width: 700px;
+    position: absolute;
+    font-family: 'Ro boto Slab', serif;
+
+    top:-340px;
+    left: -650px;
+
+
+}
+
+b {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 30px;
+    position: absolute;
+    top:-250px;
+    left: -645px;
+    font-weight: normal;
+}
+
+
+
+e {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 20px;
+    max-width: 70px;
+    position: absolute;
+
+
+    left: -200px;
+}
+
+
+.photodechloe {
+    width: 450px;
+    height: 544px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(0.8);
+    left: -690px;
+    bottom: -300px;
+}
+
+f {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 20px;
+    width: 700px;
+
+
+    text-align : justify;
+    position: absolute;
+    top: -150px;
+
+
+
+}
+.cv {
+
+    position: absolute;
+    transform: scale(0.20);
+    left: 500px;
+    top: -630px;
+    border-radius: 50px;
+
+}
+
+.MonCv {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+   top: -350px;
+    right: -455px;
+    text-decoration: underline;
+
+}
+.lettredemotiv {
+    position: absolute;
+    transform: scale(0.18);
+    left: 455px;
+    top: -450px;
+    border-radius: 50px;
+
+}
+.MaLettredeMotivation {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -115px;
+    right: -530px;
+    text-decoration: underline;
+
+}
+
+.MesRecommandation {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    right: -530px;
+    text-decoration: underline;
+}
+
+.RecoAeroport {
+    position: absolute;
+    transform: scale(0.18);
+    left: 370px;
+    top: -192px;
+    border-radius: 50px;
+
+}
+.RecoMercure {
+    position: absolute;
+    transform: scale(0.179);
+    left: 520px;
+    top: -193px;
+    border-radius: 50px;
+}
+
+.souris {
+    position: absolute;
+    transform: scale(0.08);
+    top: -420px;
+    left: 570px;
+
+}
+
+
+
+
+

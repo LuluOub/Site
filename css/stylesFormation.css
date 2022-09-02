@@ -1,0 +1,224 @@
+:root {
+    --Background: hsl(34, 20%, 16%);
+    --Ruban: hsl(204, 100%, 50%);
+    --Couleur-Des-Lettres: hsl(255, 255%, 255%);
+    --Couleur-anexe: hsl(237, 100%, 28%);
+    --Couleur-hover: hsl(34, 20%, 79%);
+
+    font-family: 'Lato', sans-serif;
+
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--Background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    opacity: 1;
+
+}
+
+.pagecontainer {
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex ;
+
+}
+h1 {
+    color: var(--Couleur-hover);
+    position: relative;
+    top: -470px;
+    font-weight: 700;
+    max-width: 3000px;
+    right: -300px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 1px;
+    border:1px solid var(--Couleur-hover) ;
+    border-radius: 12px;
+
+
+
+}
+
+h1:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+}
+
+h2 {
+    color: var(--Couleur-Des-Lettres);
+    position: absolute;
+    top: -470px;
+    max-width: 300px;
+    font-size: 20px;
+    right: 70px;
+    padding: 15px;
+    margin: 1px;
+    border: 1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+}
+
+h2 a {
+    text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+
+
+
+h3 {
+    color: var(--Couleur-Des-Lettres);
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -300px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+}
+h3:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+.separation {
+    background-color: var(--Couleur-Des-Lettres);
+    width: 2000px;
+    height: 1px;
+    margin-top: -380px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.logo {
+    position: absolute;
+    transform: scale(0.1);
+    bottom: -110px;
+    left: -1300px;
+
+}
+
+h5{
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -515px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h5:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+h5 a {
+    text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+h6 {
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -640px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h6:hover {
+    color: var(--Couleur-hover);
+    border: 1px solid var(--Couleur-hover);
+    transition: all 1s ease;
+
+}
+h6 a{
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+.ecole {
+    color: var(--Couleur-Des-Lettres);
+    font-weight: 700;
+    max-width: 1000px;
+    font-size: 20px;
+    position: absolute;
+    text-align: justify;
+    width: 1400px;
+    line-height: 2em;
+    top: -150px;
+    left: -450px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.MaFormation {
+    font-size: 70px;
+    text-decoration: underline;
+    color: var(--Couleur-Des-Lettres);
+    font-family: 'Ro boto Slab', serif;
+    position: absolute;
+    width: 700px;
+    top: -300px;
+    left: -800px;
+}
+
+.logoDublin {
+    position: absolute;
+    transform: scale(0.1);
+    top: -290px;
+    left: 100px;
+}
+
+.logoRennes {
+    position: absolute;
+    transform: scale(0.3);
+    top: -310px;
+    left: -800px;
+}
+
+.logoskema {
+    position: absolute;
+    transform: scale(0.05);
+    left: -2010px;
+    top:-350px;
+;
+}

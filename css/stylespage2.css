@@ -1,0 +1,180 @@
+:root {
+    --Background: hsl(34, 20%, 16%);
+    --Ruban: hsl(204, 100%, 50%);
+    --Couleur-Des-Lettres: hsl(255, 255%, 255%);
+    --Couleur-anexe: hsl(237, 100%, 28%);
+    --Couleur-hover: hsl(34, 20%, 79%);
+
+    font-family: 'Lato', sans-serif;
+
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--Background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    opacity: 1;
+
+}
+
+.pagecontainer {
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex ;
+
+}
+h1 {
+    color: var(--Couleur-Des-Lettres);
+    position: relative;
+    top: -470px;
+    font-weight: 700;
+    max-width: 3000px;
+    right: -300px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 1px;
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+
+}
+
+h1:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+}
+
+h1 a {
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--Couleur-hover);
+    position: absolute;
+    top: -470px;
+    max-width: 300px;
+    font-size: 20px;
+    right: 70px;
+    padding: 15px;
+    margin: 1px;
+    border: 1px solid var(--Couleur-hover) ;
+    border-radius: 12px;
+
+}
+
+
+
+
+h3 {
+    color: var(--Couleur-Des-Lettres);
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -300px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+
+
+}
+h3:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+
+h3 a {
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
+
+.separation {
+    background-color: var(--Couleur-Des-Lettres);
+    width: 2000px;
+    height: 1px;
+    margin-top: -380px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.logo {
+    position: absolute;
+    transform: scale(0.1);
+    bottom: -110px;
+    left: -1300px;
+
+}
+
+h5{
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -515px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h5:hover {
+    color: var(--Couleur-hover);
+    border:1px solid var(--Couleur-hover) ;
+    transition: all 1s ease;
+
+}
+
+h5 a {
+    text-decoration: none;
+    color: var(--Couleur-Des-Lettres);
+}
+
+h6 {
+    color: var(--Couleur-Des-Lettres);
+    border:1px solid var(--Couleur-Des-Lettres) ;
+    border-radius: 12px;
+    position: absolute;
+    top: -470px;
+    max-width: 3000px;
+    font-size: 20px;
+    right: -640px;
+    padding: 15px;
+    margin: 1px;
+    font-weight: bold;
+}
+h6:hover {
+    color: var(--Couleur-hover);
+    border: 1px solid var(--Couleur-hover);
+    transition: all 1s ease;
+
+
+}
+
+h6 a {
+    color: var(--Couleur-Des-Lettres);
+    text-decoration: none;
+}
