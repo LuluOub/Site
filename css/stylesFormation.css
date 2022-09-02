@@ -220,5 +220,10 @@ h6 a{
     transform: scale(0.05);
     left: -2010px;
     top:-350px;
-;
+
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }

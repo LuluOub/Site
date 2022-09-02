@@ -178,3 +178,8 @@ h6 a {
     color: var(--Couleur-Des-Lettres);
     text-decoration: none;
 }
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

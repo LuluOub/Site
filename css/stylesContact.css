@@ -186,3 +186,43 @@ h5 a{
     color: var(--Couleur-Des-Lettres);
     text-decoration: none;
 }
+
+
+.position  {
+position: absolute;
+    transform: scale(0.2);
+    top: -450px;
+    left:-550px;
+
+}
+
+.Paris {
+    color: var(--Couleur-Des-Lettres);
+    font-size: 50px;
+    position: absolute;
+    font-weight: bold;
+    top: -270px;
+    left:-190px;
+
+}
+
+.tel {
+    position: absolute;
+    transform: scale(0.2);
+    top: -225px;
+    left:-550px;
+}
+.numéro {
+    position: absolute;
+    color: var(--Couleur-Des-Lettres);
+    font-size: 50px;
+    font-weight: bold;
+    top: -50px;
+    left: -190px;
+    width: 500px;
+}
+
+body {
+     overflow-x: hidden;
+     overflow-y: hidden;
+ }
